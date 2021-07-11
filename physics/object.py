@@ -22,3 +22,6 @@ class object:
         self.v += self.a * timeInterval
         self.pos += self.v * timeInterval
         self.a *= 0
+
+    def addForce(self, force):
+        self.force += force
